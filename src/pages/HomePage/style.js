@@ -3,6 +3,8 @@ import styled from 'styled-components';
 export const Container = styled.div`
   width: 100%;
   height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
 `;
 
 export const HomeContainer = styled.div`
@@ -17,6 +19,7 @@ export const Slide = styled.div`
   align-items: center;
   width: 100%;
   height: 100vh;
+  scroll-snap-align: start;
 `;
 
 export const SloganContainer = styled.div`
@@ -57,6 +60,6 @@ export const PhotoContainer = styled.div``;
 export const PhotoBox = styled.div``;
 
 export const WelcomeContainer = styled.p`
-  font-size: 32px;
+  font-size: 45px;
   text-align: center;
 `;

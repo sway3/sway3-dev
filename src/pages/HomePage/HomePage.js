@@ -19,16 +19,15 @@ import profile from '../../assets/img/memoji.png';
 const HomePage = () => {
   return (
     <>
+      <Header />
       <Container>
-        <Header />
-
         <HomeContainer>
           <Slide>
             <SloganContainer>
               <div>
                 <Slogan1>Simplicity</Slogan1>
                 <Slogan2>is prerequisite</Slogan2>
-                <Slogan3>for reliability</Slogan3>
+                <Slogan3>for reliability.</Slogan3>
               </div>
               <div>
                 <PhotoBox>
