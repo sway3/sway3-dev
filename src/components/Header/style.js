@@ -14,6 +14,11 @@ export const Title = styled.h1`
   font-size: 40px;
 `;
 
+export const TitleLink = styled.a`
+  text-decoration: none;
+  color: #000;
+`;
+
 export const Nav = styled.ul`
   display: flex;
   list-style: none;

@@ -18,7 +18,11 @@ export const InnerContainer = styled.div`
 export const Title = styled.h1`
   font-size: 62px;
   font-weight: 300;
+  color: #fff;
   margin: 0 0 30px 0;
+  padding: 0 10px;
+  background-color: #008080;
+  align-self: flex-start;
 `;
 
 export const ContactContainer = styled.div`
@@ -37,10 +41,14 @@ export const Icon = styled.img`
   width: 100px;
   height: 100px;
   padding: 20px;
+  transition: 0.3s;
 
   &:hover {
-    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(43deg)
-      brightness(118%) contrast(114%);
+    /* filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(43deg)
+      brightness(118%) contrast(114%); */
+
+    filter: invert(92%) sepia(73%) saturate(0%) hue-rotate(77deg)
+      brightness(104%) contrast(103%);
   }
 `;
 
@@ -58,9 +66,11 @@ export const IconButton = styled.div`
   border-radius: 50%;
   margin: 0 20px 0 0;
   padding: 15px;
+  transition: 0.3s;
   cursor: pointer;
 
   &:hover {
-    background-color: #000;
+    background-color: #008080;
+    border-color: #008080;
   }
 `;

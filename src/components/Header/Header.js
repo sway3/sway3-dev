@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { HeaderContainer, Title, Nav, Li, A } from './style';
+import { HeaderContainer, Title, TitleLink, Nav, Li, A } from './style';
 
 const Container = styled.header`
   position: fixed;
@@ -11,7 +11,9 @@ const Header = () => {
   return (
     <Container>
       <HeaderContainer>
-        <Title>seung.</Title>
+        <Title>
+          <TitleLink href='/'>seung.</TitleLink>
+        </Title>
         <Nav>
           <Li>
             <A href='#'>about</A>
