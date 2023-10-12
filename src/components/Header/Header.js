@@ -1,8 +1,16 @@
+import styled from 'styled-components';
 import { HeaderContainer, Title, Nav, Li, A } from './style';
+
+const Container = styled.header`
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  z-index: 1000;
+`;
 
 const Header = () => {
   return (
-    <header>
+    <Container>
       <HeaderContainer>
         <Title>seung</Title>
         <Nav>
@@ -17,7 +25,7 @@ const Header = () => {
           </Li>
         </Nav>
       </HeaderContainer>
-    </header>
+    </Container>
   );
 };
 

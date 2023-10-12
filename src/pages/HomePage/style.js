@@ -1,22 +1,37 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  height: calc(100vh - 100px);
-  padding: 0 40px;
+  width: 100%;
+  height: 100vh;
 `;
 
 export const HomeContainer = styled.div`
-  margin: 100px 0 0 0;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 `;
 
-export const SloganContainer = styled.div``;
+export const Slide = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+`;
+
+export const SloganContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+`;
 
 export const Slogan1 = styled.h1`
   font-size: 100px;
   font-weight: 400;
   height: 105px;
+  text-decoration: underline;
+  text-decoration-color: #008080;
 `;
 
 export const Slogan2 = styled.h1`
@@ -28,16 +43,20 @@ export const Slogan2 = styled.h1`
 export const Slogan3 = styled.h1`
   font-size: 100px;
   font-weight: 400;
+  text-decoration: underline;
+  text-decoration-color: #008080;
 `;
 
-export const PhotoContainer = styled.div`
-  /* width: 430px;
-  height: 430px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #000;
-  border-radius: 50%; */
+export const ProfileImg = styled.img`
+  width: 330px;
+  margin: 0 0 0 20px;
 `;
+
+export const PhotoContainer = styled.div``;
 
 export const PhotoBox = styled.div``;
+
+export const WelcomeContainer = styled.p`
+  font-size: 32px;
+  text-align: center;
+`;
