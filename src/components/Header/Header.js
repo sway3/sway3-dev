@@ -20,7 +20,7 @@ const Header = () => {
             <A href='#'>projects</A>
           </Li>
           <Li>
-            <A href='#'>contact</A>
+            <A href='/contact'>contact</A>
           </Li>
         </Nav>
       </HeaderContainer>
