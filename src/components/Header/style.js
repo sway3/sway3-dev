@@ -9,14 +9,13 @@ export const HeaderContainer = styled.nav`
 `;
 
 export const Title = styled.h1`
-  color: #000;
   font-weight: 900;
   font-size: 40px;
 `;
 
 export const TitleLink = styled.a`
   text-decoration: none;
-  color: #000;
+  color: #008080;
 `;
 
 export const Nav = styled.ul`

@@ -22,30 +22,37 @@ const ContactPage = () => {
       <Header />
       <Container>
         <InnerContainer>
-          <Title>Contact</Title>
+          {/* <Title>Contact</Title> */}
+          {/* <div>
+            <ProfileImg src={contact} />
+          </div> */}
+          <ContactContainer>
+            <IconContainer>
+              <a href='https://github.com/sway3' target='_blank'>
+                <IconButton>
+                  <Icon src={github} />
+                </IconButton>
+              </a>
+              <a
+                href='https://www.linkedin.com/in/seungwoo-kim-5534b6274/'
+                target='_blank'
+              >
+                <IconButton>
+                  <Icon src={linkedin} />
+                </IconButton>
+              </a>
+              <IconButton>
+                <Icon src={email} />
+              </IconButton>
+            </IconContainer>
+          </ContactContainer>
           <Description>
             I am available in GitHub, LinkedIn and E-mail.
           </Description>
           <Description>
             Feel free to explore my profiles and contact ;)
           </Description>
-          <ContactContainer>
-            <IconContainer>
-              <IconButton>
-                <Icon src={github} />
-              </IconButton>
-              <IconButton>
-                <Icon src={linkedin} />
-              </IconButton>
-              <IconButton>
-                <Icon src={email} />
-              </IconButton>
-            </IconContainer>
-          </ContactContainer>
         </InnerContainer>
-        <div>
-          <ProfileImg src={contact} />
-        </div>
       </Container>
     </>
   );

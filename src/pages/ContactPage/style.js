@@ -12,15 +12,17 @@ export const Container = styled.div`
 export const InnerContainer = styled.div`
   display: flex;
   flex-direction: column;
-  width: 600px;
+  align-items: center;
+  width: 800px;
 `;
 
 export const Title = styled.h1`
-  font-size: 62px;
-  font-weight: 300;
+  font-size: 60px;
+  font-weight: 400;
   color: #fff;
   margin: 0 0 30px 0;
   padding: 0 10px;
+  border-radius: 8px;
   background-color: #008080;
   align-self: flex-start;
 `;
@@ -30,17 +32,17 @@ export const ContactContainer = styled.div`
 `;
 
 export const ProfileImg = styled.img`
-  width: 250px;
+  width: 200px;
 `;
 
 export const Description = styled.p`
-  font-size: 24px;
+  font-size: 32px;
+  font-weight: 300;
 `;
 
 export const Icon = styled.img`
   width: 100px;
   height: 100px;
-  padding: 20px;
   transition: 0.3s;
 
   &:hover {
@@ -54,18 +56,17 @@ export const Icon = styled.img`
 
 export const IconContainer = styled.div`
   display: flex;
+  gap: 15px;
+  margin: 0 0 20px 0;
 `;
 
 export const IconButton = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100px;
-  height: 100px;
-  border: 2px solid #000;
+  width: 110px;
+  height: 110px;
   border-radius: 50%;
-  margin: 0 20px 0 0;
-  padding: 15px;
   transition: 0.3s;
   cursor: pointer;
 
